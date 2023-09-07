@@ -1,0 +1,15 @@
+C:\Users\Administrator\source\repos\Web-Server\Web-Server\bin\Debug\net7.0\Web-Server.exe
+C:\Users\Administrator\source\repos\Web-Server\Web-Server\bin\Debug\net7.0\Web-Server.deps.json
+C:\Users\Administrator\source\repos\Web-Server\Web-Server\bin\Debug\net7.0\Web-Server.runtimeconfig.json
+C:\Users\Administrator\source\repos\Web-Server\Web-Server\bin\Debug\net7.0\Web-Server.dll
+C:\Users\Administrator\source\repos\Web-Server\Web-Server\bin\Debug\net7.0\Web-Server.pdb
+C:\Users\Administrator\source\repos\Web-Server\Web-Server\obj\Debug\net7.0\Web-Server.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\Web-Server\Web-Server\obj\Debug\net7.0\Web-Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\Web-Server\Web-Server\obj\Debug\net7.0\Web-Server.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\Web-Server\Web-Server\obj\Debug\net7.0\Web-Server.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\Web-Server\Web-Server\obj\Debug\net7.0\Web-Server.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Web-Server\Web-Server\obj\Debug\net7.0\Web-Server.dll
+C:\Users\Administrator\source\repos\Web-Server\Web-Server\obj\Debug\net7.0\refint\Web-Server.dll
+C:\Users\Administrator\source\repos\Web-Server\Web-Server\obj\Debug\net7.0\Web-Server.pdb
+C:\Users\Administrator\source\repos\Web-Server\Web-Server\obj\Debug\net7.0\Web-Server.genruntimeconfig.cache
+C:\Users\Administrator\source\repos\Web-Server\Web-Server\obj\Debug\net7.0\ref\Web-Server.dll
