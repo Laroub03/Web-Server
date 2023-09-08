@@ -1,6 +1,5 @@
-﻿using System.Net;
-using System.Net.Sockets;
-using System.Text;
+﻿using System;
+using System.Net;
 
 namespace WebServer
 {
@@ -8,16 +7,32 @@ namespace WebServer
     {
         static void Main(string[] args)
         {
-           // to create new one:
-            Server server = new Server();
+            string contentPath = "C:\\Users\\Administrator\\source\\repos\\Web-Server\\Web-Server\\HelloWorld";
+            IPAddress ipAddress = IPAddress.Parse("127.0.0.1");
+            int port = 80;
+            int maxConnections = 10;
 
-            var ipAddress = System.Net.IPAddress.Parse("127.0.0.1");
-            var port = 80;
-            var maxconnections = 10;
-            var contentpath = "C:\\Users\\Administrator\\source\\repos\\Web-Server\\Web-Server\\HelloWorld";
+            try
+            {
+                // Create a new server instance.
+                var server = new WebServer(ipAddress, port, maxConnections, contentPath);
 
-            // to start it
-            server.start(ipAddress, port, maxconnections, contentpath);
+                // Start the server.
+                server.Start();
+
+                Console.WriteLine("Server started successfully.");
+
+                // Keep the console application running.
+                Console.WriteLine("Press Enter to stop the server...");
+                Console.ReadLine();
+
+                // Stop the server when done.
+                server.Stop();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
         }
     }
 }
